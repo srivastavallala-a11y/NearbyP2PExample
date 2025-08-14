@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:padding="12dp"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/logView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:background="#f7f7f7"
+        android:padding="8dp"
+        android:text="Logs:" />
+
+    <EditText
+        android:id="@+id/inputText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Type message to send" />
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content"
+        android:orientation="horizontal" android:paddingTop="8dp">
+
+        <Button android:id="@+id/btnAdvertise" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Advertise" />
+        <Button android:id="@+id/btnDiscover" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Discover" />
+        <Button android:id="@+id/btnSend" android:layout_weight="1" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Send" />
+    </LinearLayout>
+
+    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:orientation="horizontal" android:paddingTop="8dp">
+        <Button android:id="@+id/btnPickFile" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Pick File" />
+        <Button android:id="@+id/btnSendFile" android:layout_width="0dp" android:layout_weight="1" android:layout_height="wrap_content" android:text="Send File" />
+    </LinearLayout>
+
+</LinearLayout>

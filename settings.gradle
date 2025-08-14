@@ -1,0 +1,2 @@
+rootProject.name = "NearbyP2PExample"
+include ':app'
